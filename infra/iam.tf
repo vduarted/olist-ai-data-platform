@@ -1,5 +1,5 @@
 resource "aws_iam_role" "glue" {
-  name = "olist-glue-role"
+  name = "${var.project}-glue-role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -13,10 +13,6 @@ resource "aws_iam_role" "glue" {
       }
     ]
   })
-
-  tags = {
-    env = "dev"
-  }
 }
 
 
