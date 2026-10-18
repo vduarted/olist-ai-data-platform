@@ -1,0 +1,4 @@
+boto3==1.43.114
+kaggle_hub==1.0.2
+pathlib==1.0.1
+ipykernel==7.4.0
