@@ -22,7 +22,7 @@ variable "env" {
 }
 
 variable "aws_profile" {
-  type       = string
+  type        = string
   description = "Sets the AWS profile used on authentication."
-  default    = "olist-tf"
+  default     = "olist-tf"
 }

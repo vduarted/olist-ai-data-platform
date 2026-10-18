@@ -1,4 +1,2 @@
-boto3==1.43.114
-kaggle_hub==1.0.2
-pathlib==1.0.1
-ipykernel==7.4.0
+boto3[crt]==1.43.114
+kagglehub==1.0.2
